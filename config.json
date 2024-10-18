@@ -1,7 +1,7 @@
 {
   "customComponentItems": {
-    "pagination": {
-      "name": "upload-ai",
+    "uploadAi": {
+      "name": "uploadAi",
       "imagePath": "preview/downloader.png",
       "description": "AI上传文件-zion",
       "itemInputs": [

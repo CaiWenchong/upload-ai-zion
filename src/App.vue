@@ -15,17 +15,17 @@ const setGlobalData = (obj: any) => {
 // const limit = ref(-1);
 // const table_name = ref("");
 
-const url = ref("");
-const actionflow_id = ref("");
-const where = ref("");
-const limit = ref();
+const url = ref("1");
+const actionflow_id = ref("2");
+const where = ref("3");
+const limit = ref(10);
 
-const table_name = ref("");
+const table_name = ref("4");
 
 
-const redirectUrl=""
-const pageFiled=""
-const pageId=""
+const redirectUrl="5"
+const pageFiled="6"
+const pageId="7"
 
 
 
