@@ -1,0 +1,44 @@
+{
+  "customComponentItems": {
+    "pagination": {
+      "name": "pagination",
+      "imagePath": "preview/downloader.png",
+      "description": "分页列表-zion",
+      "itemInputs": [
+        {
+          "fieldName": "url",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "actionflow_id",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "table_name",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "where",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "limit",
+          "type": "INTEGER"
+        },
+        {
+          "fieldName": "pageId",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "redirectUrl",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "pageFiled",
+          "type": "TEXT"
+        }
+      ]
+    }
+  },
+  "version": "finally-last"
+}
