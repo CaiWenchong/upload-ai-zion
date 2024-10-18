@@ -3,7 +3,7 @@ import pagination from "./components/pagination.vue";
 import { reactive, ref } from "vue";
 
 
-const globalData = reactive({ componentName: "分页列表-zion", });
+const globalData = reactive({ componentName: "AI上传文件-zion", });
 const setGlobalData = (obj: any) => {
   globalData.componentName = obj.value;
 };

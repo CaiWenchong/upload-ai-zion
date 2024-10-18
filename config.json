@@ -1,9 +1,9 @@
 {
   "customComponentItems": {
     "pagination": {
-      "name": "pagination",
+      "name": "upload-ai",
       "imagePath": "preview/downloader.png",
-      "description": "分页列表-zion",
+      "description": "AI上传文件-zion",
       "itemInputs": [
         {
           "fieldName": "url",
@@ -40,5 +40,5 @@
       ]
     }
   },
-  "version": "finally-last"
+  "version": "0.0.1"
 }
