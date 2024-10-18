@@ -1,7 +1,7 @@
 {
   "customComponentItems": {
-    "uploadAi": {
-      "name": "uploadAi",
+    "uploadAI": {
+      "name": "uploadAI",
       "imagePath": "preview/downloader.png",
       "description": "AI上传文件-zion",
       "itemInputs": [
@@ -40,5 +40,5 @@
       ]
     }
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
