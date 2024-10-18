@@ -15,31 +15,24 @@ const setGlobalData = (obj: any) => {
 // const limit = ref(-1);
 // const table_name = ref("");
 
-const url = ref("1");
-const actionflow_id = ref("2");
-const where = ref("3");
-const limit = ref(10);
+// const url = ref("1");
+// const actionflow_id = ref("2");
+// const where = ref("3");
+// const limit = ref(10);
 
-const table_name = ref("4");
+// const table_name = ref("4");
 
 
-const redirectUrl="5"
-const pageFiled="6"
-const pageId="7"
+// const redirectUrl="5"
+// const pageFiled="6"
+// const pageId="7"
 
 
 
 </script>
 <template>
   <uploadAI
-    :where="where"
-    :limit="limit"
-    :table_name="table_name"
-    :url="url"
-    :pageFiled="pageFiled"
-    :pageId="pageId"
-    :redirectUrl="redirectUrl"
-    :actionflow_id="actionflow_id"
+  
     :global-data="globalData"
     :set-global-data="setGlobalData"
   />

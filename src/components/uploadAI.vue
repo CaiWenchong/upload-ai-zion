@@ -4,22 +4,15 @@
     </div>
 </template>
 
-<script >
+<script>
     // 引入
-    import { messageControl } from "/src/components/message.js";
+    // import { messageControl } from "/src/components/message.js";
 
     export default {
         name: "uploadAI",
         props: [
-            "globalData",
-            "url",
-            "actionflow_id",
-            "table_name",
-            "where",
-            "limit",
-            "pageId",
-            "redirectUrl",
-            "pageFiled",
+            "globalData"
+
         ],
         mounted() {
 
