@@ -1,3 +1,3 @@
-import pagination from './pagination.vue';
+import uploadAI from './uploadAI.vue';
 
-export default { pagination };
+export default { uploadAI };

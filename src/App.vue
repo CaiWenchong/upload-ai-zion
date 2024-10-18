@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import pagination from "./components/pagination.vue";
+import uploadAI from "./components/uploadAI.vue";
 import { reactive, ref } from "vue";
 
 
@@ -16,11 +16,10 @@ const setGlobalData = (obj: any) => {
 // const table_name = ref("");
 
 const url = ref("");
-
-
 const actionflow_id = ref("");
 const where = ref("");
 const limit = ref();
+
 const table_name = ref("");
 
 
@@ -32,7 +31,7 @@ const pageId=""
 
 </script>
 <template>
-  <pagination
+  <uploadAI
     :where="where"
     :limit="limit"
     :table_name="table_name"
